@@ -9,8 +9,8 @@ body {
   width: 100%;
 }
 :root {
-  --primary-color: #edbb30;
-  /* --primary-color: #0d9488; */
+  /* --primary-color: #edbb30; */
+  --primary-color: #0d9488;
   --dark-gray: #4c525d;
   --off-white: #e7ebf4f8;
 }
