@@ -128,3 +128,26 @@ body {
     text-align: center;
     margin: 2rem auto;
 }
+
+
+/* for small devices */
+
+@media (max-width: 900px){
+  body{
+    max-width: 100%;
+    width: 100%;
+  }
+  .list-name {
+    display: inline;
+    padding: 0rem;
+  }
+  .container-center{
+    width: auto;
+  } 
+  .link-p{
+    display: block;
+  }
+  .link-s{
+    display: block;
+  }
+}
