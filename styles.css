@@ -1,18 +1,17 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Maru+Gothic:wght@300&display=swap");
 
 body {
-  /* font-family: "Montserrat", sans-serif; */
   font-family: "Roboto", sans-serif;
   margin: 0px auto;
   max-width: 85%;
   width: 100%;
 }
 :root {
-  /* --primary-color: #edbb30; */
   --primary-color: #0d9488;
   --dark-gray: #4c525d;
-  --off-white: #e7ebf4f8;
+  /* --off-white: #e7ebf4f8; */
+  --off-white: #e0e7f5f8;
+  --light-white: #f4f4f4;
 }
 
 .container {
@@ -88,6 +87,9 @@ body {
 .my-color{
     background-color: var(--off-white);
 }
+.my-color1{
+  background-color: var(--light-white);
+}
 .section-para{
     padding-bottom: 0.8rem;
 }
@@ -144,6 +146,9 @@ body {
   .container-center{
     width: auto;
   } 
+  .my-projets{
+    width: 80%;
+  }
   .link-p{
     display: block;
   }
