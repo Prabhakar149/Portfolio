@@ -156,3 +156,27 @@ body {
     display: block;
   }
 }
+
+/* for extra small devices */
+@media (max-width: 360px){
+  body{
+    max-width: 100%;
+    width: 100%;
+  }
+  .list-name {
+    display: inline;
+    padding: 0rem;
+  }
+  .container-center{
+    width: auto;
+  } 
+  .my-projets{
+    width: 80%;
+  }
+  .link-p{
+    display: block;
+  }
+  .link-s{
+    display: block;
+  }
+}
