@@ -78,11 +78,11 @@ body {
 .bold-heading {
   color: var(--primary-color);
 }
-
 .my-section{
-    padding: 2.5rem;
-    margin: 2.5rem 0;
+    padding: 2rem;
+    border-radius: 1rem;
     text-align: center;
+    margin: 2rem auto;
 }
 .my-color{
     background-color: var(--off-white);
@@ -146,6 +146,9 @@ body {
   .container-center{
     width: auto;
   } 
+  .my-section{
+    width: 80%;
+  }
   .my-projets{
     width: 80%;
   }
@@ -170,6 +173,9 @@ body {
   .container-center{
     width: auto;
   } 
+  .my-section{
+    width: 60%;
+  }
   .my-projets{
     width: 60%;
   }
